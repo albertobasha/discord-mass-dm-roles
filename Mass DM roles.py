@@ -30,7 +30,7 @@ async def send_dm(member, message):
 @client.event
 async def on_ready():
     os.system("cls")
-    print(f"\n                                  {Fore.LIGHTCYAN_EX + Style.BRIGHT}Discord Mass DM Roles With Bot | {Fore.WHITE}[{Fore.LIGHTGREEN_EX}ΡΗΛΝΤOΜ{Fore.WHITE}]\n\n")
+    print(f"\n                                  {Fore.LIGHTCYAN_EX + Style.BRIGHT}Discord Mass DM Roles With Bot | {Fore.WHITE}[{Fore.LIGHTGREEN_EX}Albi{Fore.WHITE}]\n\n")
     print(f"{Fore.WHITE}[{Fore.LIGHTGREEN_EX}+{Fore.WHITE}]  {Fore.LIGHTGREEN_EX}Logged in as {Fore.WHITE}{client.user} ({client.user.id})\n")
     print(Style.RESET_ALL)
     for guild in client.guilds:
